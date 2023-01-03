@@ -19,11 +19,11 @@ const HomeSlider = () => {
             Learn More
           </button>
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide3" className="btn btn-circle">
+        <div className="absolute flex gap-4 bottom-5 right-5">
+          <a href="#slide3" className="btn btn-circle btn-outline btn-success">
             ❮
           </a>
-          <a href="#slide2" className="btn btn-circle">
+          <a href="#slide2" className="btn btn-circle btn-outline btn-success">
             ❯
           </a>
         </div>
@@ -40,11 +40,11 @@ const HomeSlider = () => {
             Learn More
           </button>
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide1" className="btn btn-circle">
+        <div className="absolute flex gap-4 bottom-5 right-5">
+          <a href="#slide1" className="btn btn-circle btn-outline btn-success">
             ❮
           </a>
-          <a href="#slide3" className="btn btn-circle">
+          <a href="#slide3" className="btn btn-circle btn-outline btn-success">
             ❯
           </a>
         </div>
@@ -59,11 +59,11 @@ const HomeSlider = () => {
             Learn More
           </button>
         </div>
-        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <a href="#slide2" className="btn btn-circle">
+        <div className="absolute flex gap-4 bottom-5 right-5">
+          <a href="#slide2" className="btn btn-outline btn-success btn-circle">
             ❮
           </a>
-          <a href="#slide1" className="btn btn-circle">
+          <a href="#slide1" className="btn btn-outline btn-success btn-circle">
             ❯
           </a>
         </div>

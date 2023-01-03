@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link className="justify-between lg:text-white lg:text-xl lg:font-semibold">
           Company Profile
         </Link>
-        <ul className="p-2">
+        <ul className="p-2 bg-white z-10">
           <li>
             <Link>Our Mission</Link>
           </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
         <Link className="justify-between lg:text-white lg:text-xl lg:font-semibold">
           Our R&D Activities
         </Link>
-        <ul className="p-2">
+        <ul className="p-2 bg-white z-10">
           <li>
             <Link>Production & Processing</Link>
           </li>
