@@ -6,7 +6,7 @@ import slider1 from "../img/slider (1).jpg";
 const HomeCompanyProfile = () => {
   return (
     <div>
-      <h1 className="text-4xl font-semibold text-center mb-5">Company Profile</h1>
+      <h1 className="text-4xl font-semibold text-center mb-5">Company <span className="text-[#71B002]">Profile</span></h1>
       <div className="md:flex gap-4 container mx-auto">
         <div className="md:w-1/2">
           <img src={slider1} alt="" className="mb-5" />

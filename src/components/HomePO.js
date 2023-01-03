@@ -6,14 +6,14 @@ import management from "../img/department.jpg";
 const HomePO = () => {
   return (
     <div className="my-10 bg-[#212529] py-10">
-      <h1 className="text-4xl font-semibold text-center mb-5 text-white">Profile & Opportunites</h1>
+      <h1 className="text-4xl font-semibold text-center mb-5 text-white">Profile & <span className="text-[#71B002]">Opportunites</span></h1>
       <div className="flex flex-col items-center md:flex-row container mx-auto md:justify-evenly gap-4">
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure>
             <img src={management} alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Management Profile</h2>
+            <h2 className="card-title text-[#71B002]">Management Profile</h2>
             <p>
               Parvin Sultana is a dynamic and enthusiastic agriculturist having
               over 20 ...
@@ -28,7 +28,7 @@ const HomePO = () => {
             <img src={opportutines} alt="Shoes" />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Opportunities</h2>
+            <h2 className="card-title text-[#71B002]">Opportunities</h2>
             <p>
               Food will be the major issue in future for whole world. Quality
               seed is the ...

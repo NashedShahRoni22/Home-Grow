@@ -10,7 +10,7 @@ const HomeSlider = () => {
         <img alt="" src={Slider1} className="w-full" />
         <div className="absolute h-full w-full bg-black opacity-70"></div>
         <div className="absolute flex flex-col justify-center items-center h-full w-full">
-          <h1 className="text-[#71B002] text-5xl">Home Grow</h1>
+          <h1 className="text-[#71B002] text-5xl font-bold">Home Grow</h1>
           <p className="text-white text-xl my-4">
             Home Grow is an initiative in agriculture sector with a new vision
             was incorporated
@@ -32,7 +32,7 @@ const HomeSlider = () => {
         <img alt="" src={Slider2} className="w-full" />
         <div className="absolute h-full w-full bg-black opacity-70"></div>
         <div className="absolute flex flex-col justify-center items-center h-full w-full">
-          <h1 className="text-[#71B002] text-5xl">Breeding</h1>
+          <h1 className="text-[#71B002] text-5xl font-bold">Breeding</h1>
           <p className="text-white text-xl my-4">
             Breeding for high yielding varieties to adapt with climatic change.
           </p>
@@ -53,7 +53,7 @@ const HomeSlider = () => {
         <img alt="" src={Slider3} className="w-full" />
         <div className="absolute h-full w-full bg-black opacity-70"></div>
         <div className="absolute flex flex-col justify-center items-center h-full w-full">
-          <h1 className="text-[#71B002] text-5xl">Export</h1>
+          <h1 className="text-[#71B002] text-5xl font-bold">Export</h1>
           <p className="text-white text-xl my-4">We export seed to Hongkong, Pakistan, Malaysia, S. Korea, China etc.</p>
           <button className="btn btn-outline btn-success">
             Learn More

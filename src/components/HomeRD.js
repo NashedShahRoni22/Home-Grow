@@ -3,11 +3,11 @@ import rdImg from "../img/r&d.jpg";
 
 const HomeRD = () => {
   return (
-    <div className="my-10 py-10 bg-[#212529] text-white">
-      <h2 className="text-4xl font-semibold text-center">Our R&D Activities</h2>
+    <div className="mt-10 py-10 bg-[#212529] text-white">
+      <h2 className="text-4xl font-semibold text-center">Our <span className="text-[#71B002]">R&D</span> Activities</h2>
       <div className="mt-5 md:flex items-center container mx-auto">
         <div className="md:w-1/2">
-          <h2 className="text-xl font-semibold">Our R&D</h2>
+          <h2 className="text-xl font-semibold text-[#71B002]">Our R&D</h2>
           <ul className="list-disc mt-3">
             <li>Farmers/foreign customers demand</li>
             <li>Research job</li>
@@ -17,7 +17,7 @@ const HomeRD = () => {
             <li>Maintenance breeding and breeder seed production.</li>
           </ul>
 
-          <h2 className="text-xl font-semibold mt-4">We have</h2>
+          <h2 className="text-xl font-semibold mt-4 text-[#71B002]">We have</h2>
           <ul className="list-disc mt-3">
             <li>3 research farms in Thakurgao, Bogra and Panchagar</li>
             <li>6 Breeders</li>
