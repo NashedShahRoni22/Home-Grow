@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link className="lg:text-white lg:text-xl lg:font-semibold">Products</Link>
       </li>
       <li>
-        <Link className="lg:text-white lg:text-xl lg:font-semibold">Contact Us</Link>
+        <Link to="/contact" className="lg:text-white lg:text-xl lg:font-semibold">Contact Us</Link>
       </li>
       <li tabIndex={0}>
         <Link className="justify-between lg:text-white lg:text-xl lg:font-semibold">
