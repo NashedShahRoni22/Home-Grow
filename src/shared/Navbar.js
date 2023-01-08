@@ -24,13 +24,13 @@ const Navbar = () => {
         </Link>
         <ul className="p-2 bg-white z-10">
           <li>
-            <Link>Our Mission</Link>
+            <Link to='/mission'>Our Mission</Link>
           </li>
           <li>
-            <Link>Opportunities</Link>
+            <Link to='/opportunites'>Opportunities</Link>
           </li>
           <li>
-            <Link>Management Profile</Link>
+            <Link to='/profile'>Management Profile</Link>
           </li>
         </ul>
       </li>
@@ -40,13 +40,13 @@ const Navbar = () => {
         </Link>
         <ul className="p-2 bg-white z-10">
           <li>
-            <Link>Production & Processing</Link>
+            <Link to='/ourpp'>Production & Processing</Link>
           </li>
           <li>
-            <Link>Our Export & Foregien Actiivities</Link>
+            <Link to='/ourefa'>Our Export & Foregien Activities</Link>
           </li>
           <li>
-            <Link>Our Departments</Link>
+            <Link to='/ourdept'>Our Departments</Link>
           </li>
         </ul>
       </li>

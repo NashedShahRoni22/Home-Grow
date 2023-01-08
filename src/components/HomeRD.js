@@ -3,7 +3,7 @@ import rdImg from "../img/r&d.jpg";
 
 const HomeRD = () => {
   return (
-    <div className="mt-10 py-10 bg-[#212529] text-white">
+    <div className="mt-10 py-10">
       <h2 className="text-4xl font-semibold text-center">Our <span className="text-[#71B002]">R&D</span> Activities</h2>
       <div className="mt-5 md:flex items-center container mx-auto">
         <div className="md:w-1/2">

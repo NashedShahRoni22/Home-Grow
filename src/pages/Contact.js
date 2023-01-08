@@ -8,7 +8,7 @@ const Contact = () => {
   };
   return (
     <div className="my-10 py-10 container mx-auto">
-      <h1 className="text-4xl font-semibold text-center">Contact With Us</h1>
+      <h1 className="text-4xl font-semibold text-center"><span className="text-[#71B002]">Contact</span> With Us</h1>
       <div className="md:flex items-center">
         <form action="" className="flex flex-col gap-4 my-5 md:w-1/2">
           <input
@@ -28,7 +28,7 @@ const Contact = () => {
           <button className="btn btn-outline btn-success w-fit">Submit</button>
         </form>
         <div className="md:w-1/2">
-          <Lottie animationData={anim} style={style} />
+          <Lottie animationData={anim} style={style}/>
         </div>
       </div>
     </div>
