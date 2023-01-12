@@ -28,8 +28,8 @@ const HomeCompanyProfile = () => {
           </p>
         </div>
         <div className="md:w-1/2 overflow-hidden">
-          <img src={image2} alt="" className="mb-4 hover:scale-125"/>
-          <img src={image1} alt="" className="hover:scale-125"/>
+          <img src={image2} alt="" className="mb-4"/>
+          <img src={image1} alt=""/>
         </div>
       </div>
     </div>

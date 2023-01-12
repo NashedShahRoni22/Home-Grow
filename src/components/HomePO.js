@@ -5,9 +5,11 @@ import management from "../img/department.jpg";
 
 const HomePO = () => {
   return (
-    <div className="my-10 bg-[#212529] py-10">
-      <h1 className="text-4xl font-semibold text-center mb-5 text-white">Profile & <span className="text-[#71B002]">Opportunites</span></h1>
-      <div className="flex flex-col items-center md:flex-row container mx-auto md:justify-evenly gap-4">
+    <div className="bg-[#212529]">
+      <h1 className="text-4xl font-semibold text-center text-white">
+        Profile & <span className="text-[#71B002]">Opportunites</span>
+      </h1>
+      <div className="py-5 my-5 flex flex-col items-center md:flex-row container mx-auto md:justify-evenly gap-4">
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure>
             <img src={management} alt="Shoes" />

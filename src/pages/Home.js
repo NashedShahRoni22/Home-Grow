@@ -5,6 +5,7 @@ import HomePO from '../components/HomePO';
 import HomePP from '../components/HomePP';
 import HomeRD from '../components/HomeRD';
 import HomeSlider from '../components/HomeSlider';
+import OurRecentProjects from '../components/OurRecentProjects';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <HomeSlider></HomeSlider>
             <HomeInfoBoxs></HomeInfoBoxs>
             <HomeCompanyProfile></HomeCompanyProfile>
+            <OurRecentProjects></OurRecentProjects>
             <HomePO></HomePO>
             <HomePP></HomePP>
             <HomeRD></HomeRD>

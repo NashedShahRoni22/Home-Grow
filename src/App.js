@@ -9,6 +9,7 @@ import OurDepartments from "./pages/OurDepartments";
 import OurEFA from "./pages/OurEFA";
 import OurMission from "./pages/OurMission";
 import OurPP from "./pages/OurPP";
+import PhotoGallery from "./pages/PhotoGallery";
 
 function App() {
   const router = createBrowserRouter([
@@ -47,6 +48,10 @@ function App() {
         {
           path: "/ourdept",
           element:<OurDepartments></OurDepartments>,
+        },
+        {
+          path: "/photogalary",
+          element:<PhotoGallery></PhotoGallery>,
         },
       ],
     },
