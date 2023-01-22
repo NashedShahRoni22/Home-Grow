@@ -1,9 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Main from "./layouts/Main";
+import ComingSoon from "./pages/ComingSoon";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import ManagementProfile from "./pages/ManagementProfile";
+import NotFound from "./pages/NotFound";
 import Opportunities from "./pages/Opportunities";
 import OurDepartments from "./pages/OurDepartments";
 import OurEFA from "./pages/OurEFA";
@@ -65,6 +67,14 @@ function App() {
         },
       ],
     },
+    {
+      path: "/comigSoon",
+      element:<ComingSoon/>,
+    },
+    {
+      path:'*',
+      element: <NotFound></NotFound>
+    }
   ]);
   return (
     <main>

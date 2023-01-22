@@ -21,7 +21,7 @@ const Product = () => {
             </h3>
           </div>
         </Link>
-        <Link className="hover:scale-90">
+        <Link to="/comigSoon" className="hover:scale-90">
           <div className="relative">
             <img
               src="https://images.pexels.com/photos/13121930/pexels-photo-13121930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -35,7 +35,7 @@ const Product = () => {
           </div>
         </Link>
 
-        <Link className="hover:scale-90">
+        <Link to="/comigSoon" className="hover:scale-90">
           <div className="relative">
             <img
               src="https://img.freepik.com/free-vector/realistic-hands-bag-green-grass-composition_1284-71180.jpg?w=1380&t=st=1667396880~exp=1667397480~hmac=72e9a341979d2a20d2926946ae8ae2ec2b6c9d23b028df32b394933b1fea6d6d"
@@ -49,7 +49,7 @@ const Product = () => {
           </div>
         </Link>
 
-        <Link className="hover:scale-90">
+        <Link to="/comigSoon" className="hover:scale-90">
           <div className="relative">
             <img
               src="https://img.freepik.com/free-photo/top-view-person-holding-brown-chicks-cloth_181624-34688.jpg?w=996&t=st=1667396971~exp=1667397571~hmac=48c97a36771f1715688f6e4fbc5d6bafcb73b55ad1b67a8830ff5e2563f7ee18"
