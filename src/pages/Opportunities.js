@@ -7,7 +7,7 @@ const Opportunities = () => {
       <h1 className="text-4xl font-semibold text-center">
         Our <span className="text-[#71B002]">Opportunites</span>
       </h1>
-      <div className="md:flex my-10 items-center gap-4">
+      <div className="md:flex my-10 items-center gap-4 mx-5">
         <div className="md:w-1/2">
           <img src={opportunitiesImg} alt="" />
         </div>

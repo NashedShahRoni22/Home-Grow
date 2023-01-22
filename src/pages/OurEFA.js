@@ -7,7 +7,7 @@ const OurEFA = () => {
       <h1 className="text-4xl font-semibold text-center">
         Our Export And <span className="text-[#71B002]">Foreign Activities</span>
       </h1>
-      <div className="my-10 md:flex items-center gap-4">
+      <div className="my-10 md:flex items-center gap-4 mx-5">
         <div className="md:w-1/2">
           <img src={exportImg} alt="" />
         </div>

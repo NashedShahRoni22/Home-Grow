@@ -13,9 +13,9 @@ const ManagementProfile = () => {
       <h1 className="text-4xl font-semibold text-center">
         Management <span className="text-[#71B002]">Profile</span>
       </h1>
-      <div className="my-10 md:flex items-center gap-4">
+      <div className="my-10 md:flex items-center gap-4 mx-5">
         <div className="flex items-center justify-center">
-          <img src={ceoImg} alt="" className="w-3/4 shadow-2xl" />
+          <img src={ceoImg} alt="" className="w-1/2 md:w-full shadow-2xl" />
         </div>
         <div>
           <p className="text-justify mt-4">

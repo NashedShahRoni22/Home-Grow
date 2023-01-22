@@ -9,7 +9,7 @@ const OurPP = () => {
         <h2 className="text-4xl font-semibold text-center">
           Our Production & <span className="text-[#71b002]">Processing</span>
         </h2>
-        <div className="my-10 md:flex items-center gap-4">
+        <div className="my-10 md:flex items-center gap-4 mx-5">
           <div className="md:w-1/2">
             <img src={ourPPImg} alt="" />
           </div>
@@ -35,7 +35,7 @@ const OurPP = () => {
         <h2 className="text-4xl font-semibold text-center">
           Our R&D <span className="text-[#71b002]">Activities</span>
         </h2>
-        <div className="my-10 md:flex items-center gap-4">
+        <div className="my-10 md:flex items-center gap-4 mx-5">
           <div className="md:w-1/2">
             <h3 className="text-2xl font-semibold">Our R&D</h3>
             <div>

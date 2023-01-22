@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import ImageGallery from "react-image-gallery";
+import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 const PhotoGallery = () => {
   const images = [
@@ -42,16 +43,19 @@ const PhotoGallery = () => {
         <h1 className="text-4xl font-semibold mb-10 text-center">
           Our <span className="text-[#71B002]">Farm</span> Gallery
         </h1>
-        <div className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {galleryImages?.map((gi, i) => (
-            <figure key={i}>
+        <div className="mx-5 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <PhotoProvider>
+        {galleryImages?.map((gi, i) => (
+            <PhotoView key={i} src={gi.img}>
               <img
                 src={gi.img}
                 alt="gi"
-                className="h-64 w-64 shadow-2xl rounded-xl"
+                className="h-64 w-64 shadow-2xl rounded-xl cursor-pointer"
               />
-            </figure>
+            </PhotoView>
           ))}
+        </PhotoProvider>
+          
         </div>
       </div>
     </div>

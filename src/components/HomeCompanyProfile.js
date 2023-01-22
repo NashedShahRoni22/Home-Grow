@@ -5,9 +5,9 @@ import slider1 from "../img/slider (1).jpg";
 
 const HomeCompanyProfile = () => {
   return (
-    <div>
+    <div className="mx-10 mb-5">
       <h1 className="text-4xl font-semibold text-center mb-5">Company <span className="text-[#71B002]">Profile</span></h1>
-      <div className="md:flex gap-4 container mx-auto">
+      <div className="md:flex gap-4 container mx-auto" data-aos="fade-right" data-aos-duration="2000">
         <div className="md:w-1/2">
           <img src={slider1} alt="" className="mb-5" />
           <p className="text-justify">
@@ -28,8 +28,8 @@ const HomeCompanyProfile = () => {
           </p>
         </div>
         <div className="md:w-1/2 overflow-hidden">
-          <img src={image2} alt="" className="mb-4"/>
-          <img src={image1} alt=""/>
+          <img src={image2} alt="" className="mb-4 rounded-lg" data-aos="fade-left" data-aos-duration="2000"/>
+          <img src={image1} alt="" className=" rounded-lg" data-aos="fade-left" data-aos-duration="2000"/>
         </div>
       </div>
     </div>

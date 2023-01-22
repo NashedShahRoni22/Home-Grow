@@ -5,7 +5,7 @@ const OurDepartments = () => {
   return (
     <div className="py-10 container mx-auto">
       <h1 className="text-4xl font-semibold text-center">Our Departments</h1>
-      <div className="my-10 md:flex items-center gap-4">
+      <div className="my-10 md:flex items-center gap-4 mx-5">
         <div className="md:w-1/2">
           <img src={ourDeptImg} alt="" />
         </div>

@@ -5,12 +5,12 @@ import management from "../img/department.jpg";
 
 const HomePO = () => {
   return (
-    <div className="bg-[#212529]">
-      <h1 className="text-4xl font-semibold text-center text-white">
+    <div>
+      <h1 className="text-4xl font-semibold text-center my-10">
         Profile & <span className="text-[#71B002]">Opportunites</span>
       </h1>
       <div className="py-5 my-5 flex flex-col items-center md:flex-row container mx-auto md:justify-evenly gap-4">
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <div data-aos="fade-right" data-aos-duration="2000" className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure>
             <img src={management} alt="Shoes" />
           </figure>
@@ -25,7 +25,7 @@ const HomePO = () => {
             </div>
           </div>
         </div>
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+        <div data-aos="fade-left" data-aos-duration="2000" className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure>
             <img src={opportutines} alt="Shoes" />
           </figure>

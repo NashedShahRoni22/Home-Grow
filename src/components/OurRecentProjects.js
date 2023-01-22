@@ -13,9 +13,16 @@ const OurRecentProjects = () => {
         <h1 className="text-4xl font font-semibold mb-10 text-white text-center">
           Our <span className="text-[#71B002]">Recent Projects</span>
         </h1>
-        <div className="grid gap-4 grid-cols-1 md:grid-cols-2 items-center">
+        <div className="mx-10 grid gap-4 grid-cols-1 md:grid-cols-2 items-center">
           {projectsImages?.map((pi) => (
-            <img src={pi.img} alt="projectsImages" className="rounded-2xl"/>
+            <img
+              src={pi.img}
+              alt="projectsImages"
+              className="rounded-2xl"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            />
           ))}
         </div>
       </div>
