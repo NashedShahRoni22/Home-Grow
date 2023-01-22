@@ -10,6 +10,8 @@ import OurEFA from "./pages/OurEFA";
 import OurMission from "./pages/OurMission";
 import OurPP from "./pages/OurPP";
 import PhotoGallery from "./pages/PhotoGallery";
+import Product from "./pages/Product";
+import SeedsProducts from "./pages/SeedsProducts";
 
 function App() {
   const router = createBrowserRouter([
@@ -52,6 +54,14 @@ function App() {
         {
           path: "/photogalary",
           element:<PhotoGallery></PhotoGallery>,
+        },
+        {
+          path: "/product",
+          element:<Product></Product>,
+        },
+        {
+          path: "/seedsProduct",
+          element:<SeedsProducts></SeedsProducts>,
         },
       ],
     },

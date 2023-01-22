@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link to="/photogalary" className="lg:text-white lg:text-xl lg:font-semibold">Photo Gallery</Link>
       </li>
       <li>
-        <Link className="lg:text-white lg:text-xl lg:font-semibold">Products</Link>
+        <Link to="/product" className="lg:text-white lg:text-xl lg:font-semibold">Products</Link>
       </li>
       <li>
         <Link to="/contact" className="lg:text-white lg:text-xl lg:font-semibold">Contact Us</Link>
