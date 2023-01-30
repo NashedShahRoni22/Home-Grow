@@ -5,6 +5,7 @@ import HomePO from '../components/HomePO';
 import HomePP from '../components/HomePP';
 import HomeRD from '../components/HomeRD';
 import HomeSlider from '../components/HomeSlider';
+// import HomeVideo from '../components/HomeVideo';
 import OurRecentProjects from '../components/OurRecentProjects';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <HomeInfoBoxs></HomeInfoBoxs>
             <HomeCompanyProfile></HomeCompanyProfile>
             <OurRecentProjects></OurRecentProjects>
+            {/* <HomeVideo></HomeVideo> */}
             <HomePO></HomePO>
             <HomePP></HomePP>
             <HomeRD></HomeRD>

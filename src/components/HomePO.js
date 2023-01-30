@@ -21,7 +21,7 @@ const HomePO = () => {
               over 20 ...
             </p>
             <div className="card-actions justify-start">
-              <Link className="btn bg-[#71b002] border-0">Learn More</Link>
+              <Link to="/profile" className="btn bg-[#71b002] border-0">Learn More</Link>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ const HomePO = () => {
               seed is the ...
             </p>
             <div className="card-actions justify-start">
-              <Link className="btn bg-[#71b002] border-0">Learn More</Link>
+              <Link to="/opportunites" className="btn bg-[#71b002] border-0">Learn More</Link>
             </div>
           </div>
         </div>

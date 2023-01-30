@@ -4,6 +4,7 @@ import Main from "./layouts/Main";
 import ComingSoon from "./pages/ComingSoon";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import JuteProducts from "./pages/JuteProducts";
 import ManagementProfile from "./pages/ManagementProfile";
 import NotFound from "./pages/NotFound";
 import Opportunities from "./pages/Opportunities";
@@ -64,6 +65,10 @@ function App() {
         {
           path: "/seedsProduct",
           element:<SeedsProducts></SeedsProducts>,
+        },
+        {
+          path: "/jutesProduct",
+          element:<JuteProducts></JuteProducts>,
         },
       ],
     },
