@@ -16,6 +16,7 @@ import PhotoGallery from "./pages/PhotoGallery";
 import Product from "./pages/Product";
 import SeedsProducts from "./pages/SeedsProducts";
 import VagetablesProd from "./components/VagetablesProd";
+import Moringa from "./components/vagetables/Moringa";
 
 function App() {
   const router = createBrowserRouter([
@@ -74,6 +75,10 @@ function App() {
         {
           path: "/vagetablesProduct",
           element:<VagetablesProd></VagetablesProd>,
+        },
+        {
+          path: "/moringa",
+          element:<Moringa></Moringa>,
         },
       ],
     },
