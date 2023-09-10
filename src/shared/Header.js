@@ -8,7 +8,7 @@ const Header = () => {
       <div className="flex justify-center">
         <img src={Logo} alt="" className="w-64 mt-5"/>
       </div>
-      <div className="text-gray-400 grid md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto py-10">
+      <div className="text-gray-400 grid md:grid-cols-2 lg:grid-cols-3 gap-4 container mx-auto p-5">
         <div className="flex items-center gap-4">
             <IoLocationSharp className="text-3xl text-[#71B002]"></IoLocationSharp>
             <p>Kadim Gaziaron, Goshingga, Shreepur, Gazipur.</p>

@@ -15,6 +15,7 @@ import OurPP from "./pages/OurPP";
 import PhotoGallery from "./pages/PhotoGallery";
 import Product from "./pages/Product";
 import SeedsProducts from "./pages/SeedsProducts";
+import VagetablesProd from "./components/VagetablesProd";
 
 function App() {
   const router = createBrowserRouter([
@@ -69,6 +70,10 @@ function App() {
         {
           path: "/jutesProduct",
           element:<JuteProducts></JuteProducts>,
+        },
+        {
+          path: "/vagetablesProduct",
+          element:<VagetablesProd></VagetablesProd>,
         },
       ],
     },

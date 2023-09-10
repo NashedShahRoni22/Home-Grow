@@ -11,7 +11,7 @@ const SeedsProducts = () => {
       .then((data) => setSeedsProduct(data));
   }, []);
   return (
-    <div className="my-10 py-10 container mx-auto">
+    <div className="my-10 p-10 container mx-auto">
       <h2 className="text-3xl font-semibold">
       <span className="text-[#71B002]">{seedsProduct?.length} Seeds</span> Products
       </h2>
