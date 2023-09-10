@@ -185,68 +185,82 @@ export default function Moringa() {
         </h5>
         <p>
           {" "}
-          <span className="font-semibold">Origin and Source:</span> Our Moringa leaves hail from carefully selected
-          geographic regions known for their optimal climate conditions. Local
-          farmers collaborate to cultivate every leaf with respect for the
-          environment.
+          <span className="font-semibold">Origin and Source:</span> Our Moringa
+          leaves hail from carefully selected geographic regions known for their
+          optimal climate conditions. Local farmers collaborate to cultivate
+          every leaf with respect for the environment.
         </p>
         <p>
           {" "}
-          <span className="font-semibold">Sustainable Cultivation Practices:</span> Embracing sustainable and organic
-          farming, we prioritize soil health and avoid pesticides. Our approach
-          yields leaves of unparalleled quality while nurturing our ecosystem.
+          <span className="font-semibold">
+            Sustainable Cultivation Practices:
+          </span>{" "}
+          Embracing sustainable and organic farming, we prioritize soil health
+          and avoid pesticides. Our approach yields leaves of unparalleled
+          quality while nurturing our ecosystem.
         </p>
         <p>
           {" "}
-          <span className="font-semibold">Leaf Selection with Precision:</span> Each leaf undergoes rigorous selection,
-          ensuring only the freshest, vibrant, and unblemished ones are chosen.
-          This preserves the essence of Moringa's nutritional value.
+          <span className="font-semibold">
+            Leaf Selection with Precision:
+          </span>{" "}
+          Each leaf undergoes rigorous selection, ensuring only the freshest,
+          vibrant, and unblemished ones are chosen. This preserves the essence
+          of Moringa's nutritional value.
         </p>
         <p>
           {" "}
-          <span className="font-semibold">Harvesting at its Peak:</span> Our leaves are meticulously hand-picked to
-          ensure peak freshness and nutritional richness. This hands-on approach
-          maintains the essence of Moringa's benefits.
+          <span className="font-semibold">Harvesting at its Peak:</span> Our
+          leaves are meticulously hand-picked to ensure peak freshness and
+          nutritional richness. This hands-on approach maintains the essence of
+          Moringa's benefits.
         </p>
         <p>
           {" "}
-          <span className="font-semibold">Meticulous Cleaning and Washing:</span> Before processing, our leaves are
-          cleaned and washed meticulously to remove impurities. This ensures the
-          final product is pure and free from unwanted elements.
+          <span className="font-semibold">
+            Meticulous Cleaning and Washing:
+          </span>{" "}
+          Before processing, our leaves are cleaned and washed meticulously to
+          remove impurities. This ensures the final product is pure and free
+          from unwanted elements.
         </p>
         <p>
           {" "}
-          <span className="font-semibold">Optimized Drying Technique:</span> We use methods specially designed to
-          preserve nutritional content, from sun-drying to proprietary
-          techniques. Our Moringa leaves retain their potency and benefits.
+          <span className="font-semibold">Optimized Drying Technique:</span> We
+          use methods specially designed to preserve nutritional content, from
+          sun-drying to proprietary techniques. Our Moringa leaves retain their
+          potency and benefits.
         </p>
         <h5 className="font-semibold bg-green-500 p-2 text-white">
           Elevating Moringa Leaf Powder Quality:
         </h5>
         <p>
           {" "}
-          <span className="font-semibold">Processing Perfection:</span> The transformation from leaves to powder is a
-          journey of precision. Leaves are dried to perfection, resulting in
-          finely textured Moringa leaf powder.
+          <span className="font-semibold">Processing Perfection:</span> The
+          transformation from leaves to powder is a journey of precision. Leaves
+          are dried to perfection, resulting in finely textured Moringa leaf
+          powder.
         </p>
         <p>
           {" "}
-          <span className="font-semibold">Nutritional Richness:</span> Our Moringa leaf powder boasts an exceptional
-          nutritional profile, abundant in essential vitamins, minerals,
-          antioxidants, and bioactive compounds. Embrace the power of nature's
-          nourishment.
+          <span className="font-semibold">Nutritional Richness:</span> Our
+          Moringa leaf powder boasts an exceptional nutritional profile,
+          abundant in essential vitamins, minerals, antioxidants, and bioactive
+          compounds. Embrace the power of nature's nourishment.
         </p>
         <p>
           {" "}
-          <span className="font-semibold">Nature's Signature:</span> Color, Aroma, and Flavor: Experience the vibrancy
-          of our Moringa leaf powder – from its lively green hue to its fresh
-          aroma and mild flavor. It's a testament to nature's authenticity.
+          <span className="font-semibold">Nature's Signature:</span> Color,
+          Aroma, and Flavor: Experience the vibrancy of our Moringa leaf powder
+          – from its lively green hue to its fresh aroma and mild flavor. It's a
+          testament to nature's authenticity.
         </p>
         <p>
           {" "}
-          <span className="font-semibold">Nature's Signature:</span> Color, Aroma, and Flavor: Experience the vibrancy
-          of our Moringa leaf powder – from its lively green hue to its fresh
-          aroma and mild flavor. It's a testament to nature's authenticity.
+          <span className="font-semibold">Nature's Signature:</span> Color,
+          Aroma, and Flavor: Experience the vibrancy of our Moringa leaf powder
+          – from its lively green hue to its fresh aroma and mild flavor. It's a
+          testament to nature's authenticity.
         </p>
         <h5 className="font-semibold bg-green-500 p-2 text-white">
           Quality beyond Compromise:
@@ -323,43 +337,47 @@ export default function Moringa() {
         ))}
       </div>
       <div>
-        <h2 className="text-xl font-semibold mt-10">
-          Nutritional Value in every{" "}
-          <span className="text-green-500">100 grams</span> of Moringa Leaf and
-          Leaf Powder:
-        </h2>
         <div className="lg:flex gap-5">
-          <div className="overflow-x-auto">
-            <table className="table table-zebra w-full lg:w-1/2 mt-10">
-              {/* head */}
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>Nutrients</th>
-                  <th>Dried Leaves</th>
-                  <th>Leaves Powder</th>
-                </tr>
-              </thead>
-              <tbody>
-                {nutrients.map((n, i) => (
+          <div>
+            <h2 className="text-xl font-semibold mt-10">
+              Nutritional Value in every{" "}
+              <span className="text-green-500">100 grams</span> of Moringa Leaf
+              and Leaf Powder:
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="table table-zebra w-full mt-10">
+                {/* head */}
+                <thead>
                   <tr>
-                    <th>{i + 1}</th>
-                    <td>{n.Nutrients}</td>
-                    <td>{n.DriedLeaves}</td>
-                    <td>{n.LeavesPowder}</td>
+                    <th></th>
+                    <th>Nutrients</th>
+                    <th>Dried Leaves</th>
+                    <th>Leaves Powder</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {nutrients.map((n, i) => (
+                    <tr>
+                      <th>{i + 1}</th>
+                      <td>{n.Nutrients}</td>
+                      <td>{n.DriedLeaves}</td>
+                      <td>{n.LeavesPowder}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="mt-10 text-center">
+              Source: Moringa oleifera: A review on nutritive importance and its
+              medicinal application: sciencedirect.com
+            </p>
           </div>
-          <p className="mt-10 text-center">
-            Source: Moringa oleifera: A review on nutritive importance and its
-            medicinal application: sciencedirect.com
-          </p>
-          <h2 className="text-xl font-semibold mt-10">Our papers:</h2>
-          <div className="lg:w-1/2 flex gap-5 mt-10 overflow-x-scroll">
-            <img src={img} alt="" />
-            <img src={img2} alt="" />
+          <div className="lg:w-1/2">
+            <h2 className="text-xl font-semibold mt-10">Our documents:</h2>
+            <div className="flex gap-5 mt-10 overflow-x-scroll">
+              <img src={img} alt="" />
+              <img src={img2} alt="" />
+            </div>
           </div>
         </div>
       </div>
