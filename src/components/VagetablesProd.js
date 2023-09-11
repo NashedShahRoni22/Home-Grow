@@ -16,7 +16,7 @@ export default function VagetablesProd() {
               alt=""
             />
             <div className="absolute top-0 h-full w-full bg-black/80 flex justify-end items-end p-5">
-              <p className="text-green-500 font-semibold group-hover:text-xl duration-300 ease-linear">GTML Products</p>
+              <p className="text-green-500 font-semibold text-xl group-hover:text-2xl duration-300 ease-linear">Moringa Products</p>
             </div>
           </div>
         </Link>

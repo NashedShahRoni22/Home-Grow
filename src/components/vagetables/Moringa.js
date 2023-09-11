@@ -1,6 +1,10 @@
 import React from "react";
 import img from "../../img/Picture.png";
 import img2 from "../../img/Picture2.png";
+import moringa1 from "../../img/moringa (1).webp";
+import moringa2 from "../../img/moringa (1).jpg";
+import moringa3 from "../../img/moringa (2).jpg";
+import moringa4 from "../../img/moringa (3).jpg";
 
 export default function Moringa() {
   const products = [
@@ -12,6 +16,7 @@ export default function Moringa() {
       special:
         "If the Moringa product is boiled for more than 5 minutes, there is a risk of it losing its properties and quality.",
       rule: "Drinking one cup of `Moringa Hot Drink’ in the morning and one cup at night before sleep ensures maximum benefits.",
+      img: moringa2,
     },
     {
       name: "Sojina Fat Burner Hot Drink",
@@ -23,6 +28,7 @@ export default function Moringa() {
       rule: "Drinking one cup of `Hot Drink’ in the morning and one cup at night before sleep ensures maximum benefits.",
       precaution:
         "Drinking one cup of `Hot Drink’ in the morning and one cup at night before sleep ensures maximum benefits.",
+      img: moringa3,
     },
     {
       name: "Sojina DiaLeaf Hot Drink",
@@ -32,6 +38,7 @@ export default function Moringa() {
       special:
         "If the Moringa product is boiled for more than 5 minutes, there is a risk of it losing its properties and quality.",
       rule: "Drinking one cup of `Hot Drink’ in the morning and one cup at night before sleep ensures maximum benefits.",
+      img: moringa4,
     },
     {
       name: "Sojina  ImmuneBloom  Hot drink  Moringa Care   for Immune  Boosting",
@@ -41,6 +48,7 @@ export default function Moringa() {
       special:
         "If the Moringa product is boiled for more than 5 minutes, there is a risk of it losing its properties and quality.",
       rule: "Drinking one cup of `Hot Drink’ in the morning and one cup at night before sleep ensures maximum benefits.",
+      img: moringa2,
     },
     {
       name: "Sojina   Powder   (Moringa leaf powder)",
@@ -165,22 +173,81 @@ export default function Moringa() {
     },
   ];
   return (
-    <div className="my-10 p-10 container mx-auto">
-      <div className="flex flex-col gap-3">
-        <h2 className="text-xl font-semibold text-green-500">
-          Discover the Essence of Wellness with GT Moringa Limited
+    <div className="p-10 container mx-auto">
+      <div>
+        <img src={moringa1} alt="" />
+      </div>
+      <div className="mt-10">
+        <h2 className="text-xl font-semibold mt-10 uppercase">
+          <span className="text-[#71B002]">{products?.length} Moringa</span>{" "}
+          Products
         </h2>
-        <h5 className="font-semibold bg-green-500 p-2 text-white">
+        {products?.map((p, i) => (
+          <div
+            key={i}
+            className="relative grid gap-4 md:grid-cols-2 shadow-xl rounded-xl mt-5 p-5"
+          >
+            <div className="flex flex-col gap-4">
+              {p.img && (
+                <img
+                  src={p.img}
+                  alt="product_img"
+                  className="rounded-xl h-[150px] w-[150px]"
+                />
+              )}
+              <p>
+                <span className="font-semibold">Name:</span> <br /> {p?.name}
+              </p>
+
+              <p>
+                <span className="font-semibold">Ingrediant:</span> <br />{" "}
+                {p?.ingrediant}
+              </p>
+            </div>
+            <div className="flex flex-col gap-4">
+              <p>
+                <span className="font-semibold">Details:</span> <br />{" "}
+                {p?.details}
+              </p>
+              {p?.special && (
+                <p>
+                  <span className="font-semibold">Speciality:</span> <br />{" "}
+                  {p?.special}
+                </p>
+              )}
+              {p?.rule && (
+                <p>
+                  <span className="font-semibold">Rule:</span> <br /> {p?.rule}
+                </p>
+              )}
+              {p?.precaution && (
+                <p>
+                  <span className="font-semibold">Precaution:</span> <br />{" "}
+                  {p?.precaution}
+                </p>
+              )}
+            </div>
+            <p className="absolute -right-5 -top-5 text-3xl font-semibold px-4 py-2 bg-[#71B002] text-white rounded-xl">
+              {i + 1}
+            </p>
+          </div>
+        ))}
+      </div>
+      <div className="flex flex-col gap-3 mt-10">
+        <h2 className="text-xl font-semibold text-[#71B002]">
+          Discover the Essence of Wellness with Home Grow
+        </h2>
+        <h5 className="font-semibold bg-[#71B002] p-2 text-white">
           Unveiling Nature's Bounty: Moringa Powder and Moringa-Based Products
         </h5>
         <p>
           {" "}
-          At GT Moringa Limited, our commitment to quality and well-being is
-          evident in every step of our journey – from cultivation to packaging.
-          Immerse yourself in the world of premium Moringa products, crafted
-          with care for your health and happiness.
+          At Home Grow , our commitment to quality and well-being is evident in
+          every step of our journey – from cultivation to packaging. Immerse
+          yourself in the world of premium Moringa products, crafted with care
+          for your health and happiness.
         </p>
-        <h5 className="font-semibold bg-green-500 p-2 text-white">
+        <h5 className="font-semibold bg-[#71B002] p-2 text-white">
           Meticulous Moringa Leaf Quality
         </h5>
         <p>
@@ -231,7 +298,7 @@ export default function Moringa() {
           sun-drying to proprietary techniques. Our Moringa leaves retain their
           potency and benefits.
         </p>
-        <h5 className="font-semibold bg-green-500 p-2 text-white">
+        <h5 className="font-semibold bg-[#71B002] p-2 text-white">
           Elevating Moringa Leaf Powder Quality:
         </h5>
         <p>
@@ -262,7 +329,7 @@ export default function Moringa() {
           – from its lively green hue to its fresh aroma and mild flavor. It's a
           testament to nature's authenticity.
         </p>
-        <h5 className="font-semibold bg-green-500 p-2 text-white">
+        <h5 className="font-semibold bg-[#71B002] p-2 text-white">
           Quality beyond Compromise:
         </h5>
         <p>
@@ -282,66 +349,16 @@ export default function Moringa() {
           Dhaka. The process of Good Agricultural Practice (GAP) certification
           for the entire journey is underway.
           <br />
-          Elevate your well-being with GT Moringa Limited – where quality,
-          purity, and nature's essence converge.
+          Elevate your well-being with Home Grow – where quality, purity, and
+          nature's essence converge.
         </p>
-      </div>
-
-      <div className="mt-10">
-        <h2 className="text-xl font-semibold mt-10">
-          <span className="text-[#71B002]">{products?.length} GTML</span>{" "}
-          Products
-        </h2>
-        {products?.map((p, i) => (
-          <div
-            key={i}
-            className="relative grid gap-4 md:grid-cols-2 shadow-xl rounded-xl mt-5 p-5"
-          >
-            <div>
-              <p>
-                <span className="font-semibold">Name:</span> <br /> {p?.name}
-              </p>
-
-              <p>
-                <span className="font-semibold">Ingrediant:</span> <br />{" "}
-                {p?.ingrediant}
-              </p>
-            </div>
-            <div>
-              <p>
-                <span className="font-semibold">Details:</span> <br />{" "}
-                {p?.details}
-              </p>
-              {p?.special && (
-                <p>
-                  <span className="font-semibold">Speciality:</span> <br />{" "}
-                  {p?.special}
-                </p>
-              )}
-              {p?.rule && (
-                <p>
-                  <span className="font-semibold">Rule:</span> <br /> {p?.rule}
-                </p>
-              )}
-              {p?.precaution && (
-                <p>
-                  <span className="font-semibold">Precaution:</span> <br />{" "}
-                  {p?.precaution}
-                </p>
-              )}
-            </div>
-            <p className="absolute -right-5 -top-5 text-3xl font-semibold px-4 py-2 bg-green-500 text-white rounded-xl">
-              {i + 1}
-            </p>
-          </div>
-        ))}
       </div>
       <div>
         <div className="lg:flex gap-5">
           <div>
             <h2 className="text-xl font-semibold mt-10">
               Nutritional Value in every{" "}
-              <span className="text-green-500">100 grams</span> of Moringa Leaf
+              <span className="text-[#71B002]">100 grams</span> of Moringa Leaf
               and Leaf Powder:
             </h2>
             <div className="overflow-x-auto">
@@ -373,11 +390,16 @@ export default function Moringa() {
             </p>
           </div>
           <div className="lg:w-1/2">
-            <h2 className="text-xl font-semibold mt-10">Our documents:</h2>
+            <h2 className="text-xl font-semibold mt-10 uppercase">
+              Our documents:
+            </h2>
             <div className="flex gap-5 mt-10 overflow-x-scroll">
               <img src={img} alt="" />
               <img src={img2} alt="" />
             </div>
+            <p className="mt-5 text-center font-semibold">
+              Scroll left or Right
+            </p>
           </div>
         </div>
       </div>
