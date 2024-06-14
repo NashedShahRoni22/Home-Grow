@@ -6,6 +6,42 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 const PhotoGallery = () => {
   const images = [
     {
+      original: "https://i.ibb.co/nk8jcb6/Whats-App-Image-2024-06-12-at-10-22-30-46ec7611.jpg",
+      thumbnail: "https://i.ibb.co/nk8jcb6/Whats-App-Image-2024-06-12-at-10-22-30-46ec7611.jpg",
+    },
+    {
+      original: "https://i.ibb.co/pRM7PcV/Whats-App-Image-2024-06-12-at-10-22-29-f9769f3a.jpg",
+      thumbnail: "https://i.ibb.co/pRM7PcV/Whats-App-Image-2024-06-12-at-10-22-29-f9769f3a.jpg",
+    },
+    {
+      original: "https://i.ibb.co/y0LBw7J/Whats-App-Image-2024-06-12-at-10-22-29-3c8d7779.jpg",
+      thumbnail: "https://i.ibb.co/y0LBw7J/Whats-App-Image-2024-06-12-at-10-22-29-3c8d7779.jpg",
+    },
+    {
+      original: "https://i.ibb.co/HK5qHsG/Whats-App-Image-2024-06-12-at-10-22-29-263e4e54.jpg",
+      thumbnail: "https://i.ibb.co/HK5qHsG/Whats-App-Image-2024-06-12-at-10-22-29-263e4e54.jpg",
+    },
+    {
+      original: "https://i.ibb.co/1LcyXb9/Whats-App-Image-2024-06-12-at-10-22-28-027f093c.jpg",
+      thumbnail: "https://i.ibb.co/1LcyXb9/Whats-App-Image-2024-06-12-at-10-22-28-027f093c.jpg",
+    },
+    {
+      original: "https://i.ibb.co/4mC8KKj/Whats-App-Image-2024-06-12-at-10-22-28-cfc03acf.jpg",
+      thumbnail: "https://i.ibb.co/4mC8KKj/Whats-App-Image-2024-06-12-at-10-22-28-cfc03acf.jpg",
+    },
+    {
+      original: "https://i.ibb.co/d7TKMbh/Whats-App-Image-2024-06-12-at-10-22-27-1d8d1387.jpg",
+      thumbnail: "https://i.ibb.co/d7TKMbh/Whats-App-Image-2024-06-12-at-10-22-27-1d8d1387.jpg",
+    },
+    {
+      original: "https://i.ibb.co/znRgk6D/Whats-App-Image-2024-06-12-at-10-22-27-56ce417c.jpg",
+      thumbnail: "https://i.ibb.co/znRgk6D/Whats-App-Image-2024-06-12-at-10-22-27-56ce417c.jpg",
+    },
+    {
+      original: "https://i.ibb.co/3c5MhpL/Whats-App-Image-2024-06-12-at-10-22-27-f04c5e02.jpg",
+      thumbnail: "https://i.ibb.co/3c5MhpL/Whats-App-Image-2024-06-12-at-10-22-27-f04c5e02.jpg",
+    },
+    {
       original: "https://i.ibb.co/1bKcsL1/achivements-6.jpg",
       thumbnail: "https://i.ibb.co/1bKcsL1/achivements-6.jpg",
     },
@@ -24,7 +60,7 @@ const PhotoGallery = () => {
     {
       original: "https://i.ibb.co/f8ZMmQG/achivements-1.jpg",
       thumbnail: "https://i.ibb.co/f8ZMmQG/achivements-1.jpg",
-    },
+    }
   ];
   const { data: galleryImages } = useQuery({
     queryKey: ["imageGallery"],

@@ -33,7 +33,7 @@ const HomeSlider = () => {
               <h1 className="text-[#71B002] text-xl md:text-3xl lg:text-5xl font-bold">
                 {s.title}
               </h1>
-              <p className="text-white text-sm md:text-xl lg:text-5xl text-justify">
+              <p className="text-white text-sm md:text-xl lg:text-5xl">
                 {s.desc}
               </p>
             </div>
