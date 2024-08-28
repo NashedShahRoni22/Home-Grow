@@ -5,11 +5,11 @@ import slider1 from "../img/slider (1).jpg";
 
 const HomeCompanyProfile = () => {
   return (
-    <div className="mx-10 mb-5">
-      <h1 className="text-4xl font-semibold text-center mb-5">Company <span className="text-[#71B002]">Profile</span></h1>
+    <div className="mx-5 md:container md:mx-auto py-10">
+      <h1 className="text-4xl font-semibold text-center mb-10 md:mb-20">Company <span className="text-[#71B002]">Profile</span></h1>
       <div className="md:flex gap-4 container mx-auto" data-aos="fade-right" data-aos-duration="2000">
         <div className="md:w-1/2">
-          <img src={slider1} alt="" className="mb-5" />
+          <img src={slider1} alt="" className="mb-5 rounded-lg" />
           <p className="text-justify">
             Home Grow is an initiative in agriculture sector with a new vision
             was incorporated in the year of 2022 to enter in international seed

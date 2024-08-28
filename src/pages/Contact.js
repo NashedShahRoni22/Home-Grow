@@ -25,7 +25,7 @@ const Contact = () => {
             className="textarea border-2 w-full border-[#71B002]"
             placeholder="Enter Message"
           ></textarea>
-          <button className="btn w-fit border-2 border-[#71B002] bg-transparent text-[#71B002] hover:bg-[#71B002] hover:text-white hover:border-0">Submit</button>
+          <button className="btn w-1/4 border-2 border-[#71B002] bg-transparent text-[#71B002] hover:bg-[#71B002] hover:text-white hover:border-0 duration-300 ease-linear">Submit</button>
         </form>
         <div className="md:w-1/2">
           <Lottie animationData={anim} style={style}/>

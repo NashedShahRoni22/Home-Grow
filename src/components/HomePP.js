@@ -4,13 +4,13 @@ import productionImg from "../img/production.jpg";
 const HomePP = () => {
   return (
     <section className="bg-[#212529] text-white">
-      <div className="my-10 py-10 container mx-auto">
+      <div className="my-10 py-10 mx-5 md:container md:mx-auto">
         <h1 className="text-4xl font-semibold text-center mb-5">
           Our Production & <span className="text-[#71B002]">Processing</span>
         </h1>
-        <div className="flex flex-col lg:flex-row items-center mx-10">
+        <div className="grid md:grid-cols-2 gap-5 items-center">
           <div className="lg:w-1/2" data-aos="fade-left" data-aos-duration="2000">
-            <img src={productionImg} alt="" />
+            <img src={productionImg} alt="" className="rounded-2xl" />
           </div>
           <div className="lg:w-1/2" data-aos="fade-right" data-aos-duration="2000">
             <h2 className="text-3xl font-semibold my-2 text-[#71B002]">

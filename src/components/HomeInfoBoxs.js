@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HomeInfoBoxs = () => {
   return (
-    <div className="py-10 flex flex-col lg:flex-row gap-4 container mx-auto">
+    <div className="py-10 flex flex-col lg:flex-row gap-4 mx-5 md:container md:mx-auto">
       <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-col items-center text-center p-4 rounded-3xl hover:bg-[#71B002] hover:text-white">
         <h2 className="text-2xl font-semibold">Our R&D Activities</h2>
         <p className="my-3">
