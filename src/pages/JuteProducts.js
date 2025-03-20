@@ -10,17 +10,18 @@ const JuteProducts = () => {
   }, []);
   return (
     <div className="my-10 p-10 container mx-auto">
-      <div className="relative">
-        <p className="text-gray-700 text-lg md:text-xl mb-4 text-center font-semibold">
-          Displaying home grow products at the Consulate Office of Bangladesh in
-          Los Angeles, where the Consul General, Commercial Counselor, and
-          representatives were present.
-        </p>
+      <div className="">
         <img
           src={usaImg}
           className="w-full max-w-[600px] h-auto mx-auto rounded-lg"
           alt="our_rp"
         />
+
+        <p className="text-gray-700 text-lg md:text-xl mt-4 text-center font-semibold">
+          Displaying home grow products at the Consulate Office of Bangladesh in
+          Los Angeles, where the Consul General, Commercial Counselor, and
+          representatives were present.
+        </p>
       </div>
 
       <h2 className="text-3xl font-semibold mt-5">
